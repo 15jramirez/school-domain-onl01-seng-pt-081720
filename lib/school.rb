@@ -14,8 +14,8 @@ class School
   def grade (grade_level)
     @roster[grade_level]
 end
-def sort (name)
- 
+def sort
+ @roster.key
 end
 
 end
