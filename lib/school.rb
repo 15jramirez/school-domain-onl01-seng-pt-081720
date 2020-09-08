@@ -19,7 +19,7 @@ def sort
  @roster.keys.sort.each do |names|
    sort_hash[names]=@roster
  end
-@roster
+sort_hash
 end
 
 end
