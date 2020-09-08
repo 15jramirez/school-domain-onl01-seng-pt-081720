@@ -17,7 +17,7 @@ end
 def sort
  sort_hash ={}
  @roster.keys.sort.each do |names|
-   sort_hash[names]=@roster.names.sort
+   sort_hash[names]=@roster[names].sort
  end
 sort_hash
 end
