@@ -16,9 +16,9 @@ class School
 end
 def sort
  @roster.collect do |grade_level, name|
-   @roster.sort
+   @roster.sort.values
  end
-
+@roster
 end
 
 end
