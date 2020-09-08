@@ -15,7 +15,7 @@ class School
     @roster[grade_level]
 end
 def sort
- @roster.collect do |roster|
+ @roster.collect do |grade_level, name|
    @roster.sort
  end
 
