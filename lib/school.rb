@@ -15,8 +15,9 @@ class School
     @roster[grade_level]
 end
 def sort
- @roster.collect do |grade_level, name|
-   @roster.sort.values
+ sort_hash ={}
+ @roster.keys.sort.each do |names|
+   sort_hash[names]=@roster
  end
 @roster
 end
