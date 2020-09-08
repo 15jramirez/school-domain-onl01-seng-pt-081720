@@ -18,7 +18,6 @@ def sort
  @roster.collect do |grade_level, name|
    @roster.sort
  end
-@roster
 
 end
 
