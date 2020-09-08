@@ -15,7 +15,7 @@ class School
     @roster[grade_level]
 end
 def sort 
-  @roaster[:grade_level][:name].sort
+  @roaster[:grade_level].sort
 end
 
 end
