@@ -18,7 +18,7 @@ def sort
  @roster.collect do |roster|
    @roster.sort
  end
- @roster
+
 
 end
 
